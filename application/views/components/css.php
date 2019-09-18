@@ -9,8 +9,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <title>SIPB</title>
 
   <!-- CSS  -->
-  <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="assets/css/materialize-icons.css" type="text/css" rel="stylesheet" />
-  <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="<?= base_url() ?>assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="<?= base_url() ?>assets/css/materialize-icons.css" type="text/css" rel="stylesheet" />
+  <link href="<?= base_url() ?>assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>

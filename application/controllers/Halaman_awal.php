@@ -12,11 +12,8 @@ class halaman_awal extends CI_Controller {
 		$this->load->view('components/js');
 	}
 
-	public function login()
+	public function Sign()
 	{
-		echo "Hello World";
-		// $this->load->view('pages/v_sign.php');
+		echo "This sign page";
 	}
-
-
 }

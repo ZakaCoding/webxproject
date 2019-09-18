@@ -5,7 +5,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <div class="parallax-container" style="height:500px">
   <div class="parallax">
-    <img src="assets/img/background1.jpg" alt="Unsplashed background img 1">
+    <img src="<?= base_url() ?>assets/img/background1.jpg" alt="Unsplashed background img 1">
   </div>
   <div class="section no-pad-bot">
     <div class="container col-lg-5">
@@ -14,7 +14,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </div>
 </div>
 
-<div class="container" id="about">
+<div id="about">
   <div class="section">
     <div class="icon-block">
       <h2 class="center"><i class="material-icons">info</i></h2>

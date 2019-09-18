@@ -6,6 +6,11 @@
  * Made By MaterializeCSS.com
  */
 
+ @font-face {
+   font-family: 'OpenSans';
+   src: url('../fonts/OpenSans-Regular.ttf');
+ }
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -67,4 +72,38 @@ footer.page-footer {
 }
 th{
   background-color: #E4E4E4;
+}
+
+/* Custom page sign */
+.wrapper{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI Regular";
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.overlay {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  height: 100vh;
+  background: rgb(246,91,159);
+  background: linear-gradient(80deg, rgba(246,91,159,0.6) 0%, rgba(30,83,147,0.6) 48%, rgba(9,36,68,0.6) 91%);
+}
+
+.inner {
+  max-width: 480px;
+  min-height: 400px;
+  background-color: white;
+  z-index: 3;
+  position: relative;
+  margin: 4% auto;
+  padding: 40px 30px 15px 30px;
+  border: 0px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-family: "OpenSans";
 }

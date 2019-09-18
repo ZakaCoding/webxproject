@@ -50,5 +50,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['default_controller'] = 'halaman_awal';
+$route['sign'] = 'sign/login';
+$route['signup']= 'signup';
+
 $route['404_override'] = 'error404';
 $route['translate_uri_dashes'] = FALSE;

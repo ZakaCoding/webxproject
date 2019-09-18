@@ -2,9 +2,9 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
-  <script src="assets/js/jquery.js"></script>
-  <script src="assets/js/materialize.js"></script>
-  <script src="assets/js/init.js"></script>
+  <script src="<?= base_url() ?>assets/js/jquery.js"></script>
+  <script src="<?= base_url() ?>assets/js/materialize.js"></script>
+  <script src="<?= base_url() ?>assets/js/init.js"></script>
   <script>
   	 $(document).ready(function(){
 	    $('.materialboxed').materialbox();
